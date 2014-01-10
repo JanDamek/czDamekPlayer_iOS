@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5434FA417EE5B8B002AB5EA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434FA317EE5B8B002AB5EA /* AssetsLibrary.framework */; };
+		F5434FA617EE5B8F002AB5EA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434FA517EE5B8F002AB5EA /* AudioToolbox.framework */; };
+		F5434FA817EE5B93002AB5EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434FA717EE5B93002AB5EA /* AVFoundation.framework */; };
+		F5434FAA17EE5BAE002AB5EA /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434FA917EE5BAE002AB5EA /* MediaAccessibility.framework */; };
+		F5434FAC17EE5BB4002AB5EA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434FAB17EE5BB4002AB5EA /* MediaPlayer.framework */; };
+		F5434FAE17EE5BB9002AB5EA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434FAD17EE5BB9002AB5EA /* CoreMedia.framework */; };
+		F5434FB017EE5BC0002AB5EA /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5434FAF17EE5BC0002AB5EA /* MediaToolbox.framework */; };
+		F55EC4A417EE021F00E8FB36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55EC4A317EE021F00E8FB36 /* Foundation.framework */; };
+		F55EC4A917EE021F00E8FB36 /* czDamekPlayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F55EC4A817EE021F00E8FB36 /* czDamekPlayer.h */; };
+		F55EC4AB17EE021F00E8FB36 /* czDamekPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F55EC4AA17EE021F00E8FB36 /* czDamekPlayer.m */; };
+		F55EC4CB17EE029900E8FB36 /* comPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F55EC4CA17EE029900E8FB36 /* comPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F55EC49E17EE021F00E8FB36 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F55EC4A917EE021F00E8FB36 /* czDamekPlayer.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F5434FA317EE5B8B002AB5EA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F5434FA517EE5B8F002AB5EA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F5434FA717EE5B93002AB5EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F5434FA917EE5BAE002AB5EA /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		F5434FAB17EE5BB4002AB5EA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F5434FAD17EE5BB9002AB5EA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F5434FAF17EE5BC0002AB5EA /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		F55EC4A017EE021F00E8FB36 /* libczDamekPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libczDamekPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55EC4A317EE021F00E8FB36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F55EC4A717EE021F00E8FB36 /* czDamekPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "czDamekPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		F55EC4A817EE021F00E8FB36 /* czDamekPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = czDamekPlayer.h; sourceTree = "<group>"; };
+		F55EC4AA17EE021F00E8FB36 /* czDamekPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = czDamekPlayer.m; sourceTree = "<group>"; };
+		F55EC4B117EE021F00E8FB36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F55EC4C917EE029900E8FB36 /* comPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comPlayer.h; sourceTree = "<group>"; };
+		F55EC4CA17EE029900E8FB36 /* comPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = comPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F55EC49D17EE021F00E8FB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5434FB017EE5BC0002AB5EA /* MediaToolbox.framework in Frameworks */,
+				F5434FAE17EE5BB9002AB5EA /* CoreMedia.framework in Frameworks */,
+				F5434FAC17EE5BB4002AB5EA /* MediaPlayer.framework in Frameworks */,
+				F5434FAA17EE5BAE002AB5EA /* MediaAccessibility.framework in Frameworks */,
+				F5434FA817EE5B93002AB5EA /* AVFoundation.framework in Frameworks */,
+				F5434FA617EE5B8F002AB5EA /* AudioToolbox.framework in Frameworks */,
+				F5434FA417EE5B8B002AB5EA /* AssetsLibrary.framework in Frameworks */,
+				F55EC4A417EE021F00E8FB36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F55EC49717EE021F00E8FB36 = {
+			isa = PBXGroup;
+			children = (
+				F55EC4C917EE029900E8FB36 /* comPlayer.h */,
+				F55EC4CA17EE029900E8FB36 /* comPlayer.m */,
+				F55EC4A517EE021F00E8FB36 /* czDamekPlayer */,
+				F55EC4A217EE021F00E8FB36 /* Frameworks */,
+				F55EC4A117EE021F00E8FB36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F55EC4A117EE021F00E8FB36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55EC4A017EE021F00E8FB36 /* libczDamekPlayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F55EC4A217EE021F00E8FB36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5434FAF17EE5BC0002AB5EA /* MediaToolbox.framework */,
+				F5434FAD17EE5BB9002AB5EA /* CoreMedia.framework */,
+				F5434FAB17EE5BB4002AB5EA /* MediaPlayer.framework */,
+				F5434FA917EE5BAE002AB5EA /* MediaAccessibility.framework */,
+				F5434FA717EE5B93002AB5EA /* AVFoundation.framework */,
+				F5434FA517EE5B8F002AB5EA /* AudioToolbox.framework */,
+				F5434FA317EE5B8B002AB5EA /* AssetsLibrary.framework */,
+				F55EC4A317EE021F00E8FB36 /* Foundation.framework */,
+				F55EC4B117EE021F00E8FB36 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F55EC4A517EE021F00E8FB36 /* czDamekPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F55EC4A817EE021F00E8FB36 /* czDamekPlayer.h */,
+				F55EC4AA17EE021F00E8FB36 /* czDamekPlayer.m */,
+				F55EC4A617EE021F00E8FB36 /* Supporting Files */,
+			);
+			path = czDamekPlayer;
+			sourceTree = "<group>";
+		};
+		F55EC4A617EE021F00E8FB36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F55EC4A717EE021F00E8FB36 /* czDamekPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F55EC49F17EE021F00E8FB36 /* czDamekPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55EC4C317EE021F00E8FB36 /* Build configuration list for PBXNativeTarget "czDamekPlayer" */;
+			buildPhases = (
+				F55EC49C17EE021F00E8FB36 /* Sources */,
+				F55EC49D17EE021F00E8FB36 /* Frameworks */,
+				F55EC49E17EE021F00E8FB36 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = czDamekPlayer;
+			productName = czDamekPlayer;
+			productReference = F55EC4A017EE021F00E8FB36 /* libczDamekPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F55EC49817EE021F00E8FB36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Asseco Solutions, a.s.";
+			};
+			buildConfigurationList = F55EC49B17EE021F00E8FB36 /* Build configuration list for PBXProject "czDamekPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F55EC49717EE021F00E8FB36;
+			productRefGroup = F55EC4A117EE021F00E8FB36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F55EC49F17EE021F00E8FB36 /* czDamekPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F55EC49C17EE021F00E8FB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55EC4CB17EE029900E8FB36 /* comPlayer.m in Sources */,
+				F55EC4AB17EE021F00E8FB36 /* czDamekPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F55EC4C117EE021F00E8FB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F55EC4C217EE021F00E8FB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F55EC4C417EE021F00E8FB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/czDamekPlayer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "czDamekPlayer/czDamekPlayer-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_DYLIB_INSTALL_NAME = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s armv64";
+			};
+			name = Debug;
+		};
+		F55EC4C517EE021F00E8FB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/czDamekPlayer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "czDamekPlayer/czDamekPlayer-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_DYLIB_INSTALL_NAME = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s armv64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F55EC49B17EE021F00E8FB36 /* Build configuration list for PBXProject "czDamekPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55EC4C117EE021F00E8FB36 /* Debug */,
+				F55EC4C217EE021F00E8FB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55EC4C317EE021F00E8FB36 /* Build configuration list for PBXNativeTarget "czDamekPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55EC4C417EE021F00E8FB36 /* Debug */,
+				F55EC4C517EE021F00E8FB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F55EC49817EE021F00E8FB36 /* Project object */;
+}
